@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5d1dfe538f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>ToDo-List</title>
+
+    
+</head>
+<body class="body">
+    <main class="container">
+        <div class="perfil">
+            <div id="fecha"></div>
+            <h1>Hola, Emily</h1>
+            <span>Objetivos del día</span>
+        </div>
+
+        <form class="add-task">
+            <input type="text" id="input" placeholder="add one task">
+            <i id="enter" class="fa-solid fa-plus"></i>
+        </form>
+
+        <div class="task_section">
+            <h3>Éstas, son tus tareas pendientes:</h3>
+            <ul id="lista">
+                <li>
+                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
+                    <p class="text line_through">hacer la tarea de fáctoria F5</p>
+                    <i class="fa-solid fa-trash-arrow-up" data="eliminado" id="0"></i>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
