@@ -13,27 +13,25 @@
 <body class="body">
     <main class="container">
         <div class="perfil">
-            <div id="fecha"></div>
             <h1>Hola, Emily</h1>
             <span>Objetivos del día</span>
         </div>
 
         <form class="add-task">
-            <input type="text" id="input" placeholder="add one task">
-            <i id="enter" class="fa-solid fa-plus"></i>
+            <input type="text" class="add_newtask" placeholder="add one task">
+            <input type="text" class="add_description" placeholder="add description">
+
+            <button class="plus_btn" onclick="createtask()"><i id="enter-button" class="fa-solid fa-plus"></i></button>
+
         </form>
 
         <div class="task_section">
             <h3>Éstas, son tus tareas pendientes:</h3>
-            <ul id="lista">
-                <li>
-                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
-                    <p class="text line_through">hacer la tarea de fáctoria F5</p>
-                    <i class="fa-solid fa-trash-arrow-up" data="eliminado" id="0"></i>
-                </li>
+            <ul id="list">
+                
             </ul>
         </div>
     </main>
-    <script src="app.js"></script>
+    <script src="functions.js"></script>
 </body>
 </html>
