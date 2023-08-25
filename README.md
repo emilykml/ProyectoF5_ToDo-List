@@ -13,6 +13,9 @@ Follow these steps to set up the project correctly:
 ## Figma
 https://www.figma.com/file/hKHBTM0wyckWlOHaiwNQ9S/PROYECTO-FACTOR%C3%8DA-TODO-LIST?type=design&node-id=0%3A1&mode=design&t=zzuPYgioXlELNljA-1
 
+## GIT Page
+https://emilykml.github.io/ProyectoF5_ToDo-List/?
+
 ## File Structure
 - `index.html`: This is the main file that contains the HTML code of the page.
 - `reset.css`: This file contains CSS styles to reset the default styles of the browser.
